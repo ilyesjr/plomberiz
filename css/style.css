@@ -135,12 +135,12 @@ nav ul li:nth-child(2):hover ~ li:last-child::after
 
 nav ul li:nth-child(3):hover ~ li:last-child::after
 {
-  left:8.5em;width:2em;
+  left:8.9em;width:2em;
 }
 
 nav ul li:last-child:hover::after
 {
-  left:12.3em;width:2.3em;
+  left:13.2em;width:2.3em;
 }
 /*nav part*/
 
