@@ -1,12 +1,12 @@
 @font-face
 {
   font-family: 'amontilladios';
-  src: url('font/amontilladios.ttf');
+  src: url('../font/amontilladios.ttf');
 }
 @font-face
 {
   font-family: 'beyond';
-  src: url('font/beyond.ttf');
+  src: url('../font/beyond.ttf');
 }
 
 *
@@ -16,7 +16,7 @@
 /*header part*/
 header
 {
-  background-image: url(image/goutte.jpg);
+  background-image: url(../image/goutte.jpg);
   padding: 1%;
   margin: -1%;
   width: 99%;
@@ -117,11 +117,6 @@ nav ul li:last-child::after
   transition: all .5s ease;
 }
 
-nav ul li:hover ~ li:last-child::after,nav ul li:last-child:hover::after
-{
-  background:black;
-}
-
 nav ul li:nth-child(1):hover ~ li:last-child::after
 {
   left:8.3em;
@@ -184,8 +179,7 @@ nav ul li:last-child:hover::after
 {
   width:302px;
   height:320px;
-  margin:70px auto;
-  margin-left: 37%;
+  margin: 50px auto;
 }
 
 .galphoto ul li
@@ -281,3 +275,4 @@ footer a:hover
   text-decoration: underline;
   color: black;
 }
+/*footer part*/
