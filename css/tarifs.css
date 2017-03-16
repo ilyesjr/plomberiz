@@ -147,13 +147,14 @@ nav ul li:last-child:hover::after
 /*section part*/
 .tableau
 {
-  margin: 5% 0% 5% 30%;
+  margin: 5% 0% 5% 21%;
 }
 .tableau table
 {
   border-collapse: collapse;
   display: inline-block;
   font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
 }
 
 .tableau td,.tableau th
@@ -161,6 +162,10 @@ nav ul li:last-child:hover::after
   border: 1px inset black;
   text-align: center;
   padding: 1em;
+}
+.homme
+{
+  margin-right: 20px;
 }
 
 /*section part*/
