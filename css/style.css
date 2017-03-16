@@ -146,17 +146,14 @@ nav ul li:last-child:hover::after
 
 /*section part*/
   /*Article presentation*/
-.presentation
-{
-  margin-top: 10%;
-}
-
-.presentation h2
+section h2
 {
   font-family: 'beyond', cursive;
   font-size: 2em;
   text-align: center;
+  margin-top: 2em;
 }
+
 
 .presentation p
 {
