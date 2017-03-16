@@ -1,0 +1,253 @@
+@font-face
+{
+  font-family: 'amontilladios';
+  src: url('../font/amontilladios.ttf');
+}
+@font-face
+{
+  font-family: 'beyond';
+  src: url('../font/beyond.ttf');
+}
+
+*
+{
+  margin: 0;
+}
+/*header part*/
+header
+{
+  background-image: url(../image/goutte.jpg);
+  padding: 1%;
+  margin: -1%;
+  width: 99%;
+}
+
+header img
+{
+  display: block;
+  margin: auto;
+}
+
+h1
+{
+  text-align: center;
+  font-family: 'beyond',fantasy;
+  font-size: 2.8em;
+  font-weight: lighter;
+  margin-top: 1em;
+}
+/*header part*/
+
+/*nav part*/
+nav
+{
+  border: 2.5px solid black;
+  border-radius: 20px;
+  height: 70px;
+  width: 50%;
+  margin: 30px auto;
+}
+nav li
+{
+  display: inline;
+  text-align: center;
+  margin-right: 2em;
+  font-family: 'amontilladios',fantasy;
+  font-size: 40px;
+}
+
+
+nav ul
+{
+  position:relative;
+  height:2em;
+  margin:30px 100px;
+  padding:0;
+  white-space:nowrap;
+  text-align: center;
+  margin-top: 10px;
+}
+
+nav ul li:nth-child(1) a
+{
+  width:2.3em;
+}
+
+nav ul li:nth-child(2) a
+{
+  width:2.3em;
+}
+
+{
+  width:2.3em;
+}
+
+nav ul li:nth-child(4) a
+{
+  nav ul li:nth-child(3) a
+  width:2.3em;
+}
+
+nav ul li a
+{
+  display:inline-block;
+  box-sizing:border-box;
+  padding:.1em .2em;
+  color:black;
+  text-decoration:none;
+  text-shadow:0 1px 0 white;
+  background-color:transparent;
+  transition:background-color .3s ease;
+}
+
+nav ul li a:hover,ul li a:focus
+{
+  color: dimgrey;
+  background-color:rgba(255,255,255,.4);
+  transition:background-color .3s ease .4s;
+}
+
+nav ul li:last-child::after
+{
+  content:"";
+  position:absolute;
+  left:12.3em;
+  bottom:-20px;
+  display:block;
+  width:2.3em;
+  height:3px;
+  background:#ccc;
+  border-bottom:1px solid rgba(255,255,255,.8);
+  transition: all .5s ease;
+}
+
+nav ul li:nth-child(1):hover ~ li:last-child::after
+{
+  left:0.1em;
+  width:2.3em;
+}
+
+nav ul li:nth-child(2):hover ~ li:last-child::after
+{
+  left:4.3em;
+  width:2.3em;
+}
+
+nav ul li:nth-child(3):hover ~ li:last-child::after
+{
+  left:8.5em;width:2em;
+}
+
+nav ul li:last-child:hover::after
+{
+  left:12.3em;width:2.3em;
+}
+/*nav part*/
+
+/*section part*/
+section h2
+{
+  text-align: center;
+  font-family: 'beyond',fantasy;
+  font-size: 2em;
+  font-weight: 600;
+  margin: 60px 0px 40px 0px;
+}
+
+section form, section .infos, iframe
+{
+  display: inline-block;
+}
+
+section form
+{
+  margin-left: 45px;
+  width: 30%;
+}
+
+section form label
+{
+	width: 150px;
+	float: left;
+}
+
+section form p
+{
+  margin-bottom: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+}
+
+section .infos
+{
+	display: block;
+	width: 30%;
+	float: right;
+  margin-right: 45px;
+}
+
+section .infos h3
+{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+section .infos p
+{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+section iframe
+{
+  vertical-align: middle;
+  float: right;
+  margin-right: 60px;
+}
+/*section part*/
+
+/*footer part*/
+footer
+{
+  background-color: #DCDCDC;
+  height: 70px;
+}
+
+.lfooter
+{
+  display: inline-block;
+  float: left;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.3em;
+  text-align: left;
+  margin: 20px 0px 10px 0px;
+}
+
+.rfooter
+{
+  display: inline-block;
+  float: right;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.3em;
+  text-align: right;
+  margin: 20px 30px 10px 0px;
+}
+
+footer li
+{
+  list-style-type: none;
+}
+
+footer a
+{
+  text-decoration: none;
+  color: dimgrey;
+}
+
+footer a:hover
+{
+  font-weight: bolder;
+}
+/*footer part*/
