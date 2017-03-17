@@ -146,6 +146,10 @@ nav ul li:last-child:hover::after
 
 /*section part*/
   /*Article presentation*/
+section
+{
+  margin-top: 13%;
+}
 section h2
 {
   font-family: 'beyond', cursive;
